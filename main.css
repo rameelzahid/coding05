@@ -1,0 +1,24 @@
+/*
+Name: Rameel Zahid
+Assignment: 05
+Purpose: The purpose of this is to organize the page and make it look very presentable.
+ */
+
+footer{
+    background: #bdd7ff;
+}
+
+.nav-section{
+    padding-top: 10px;
+    height: 60px;
+    background: #5681c4;
+}
+
+.body-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.centered{
+    text-align: center;
+}
