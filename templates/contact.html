@@ -4,55 +4,41 @@ Assignment: 03
 Purpose: This program will display the contact form where there will be an email and personal information showing.
 ********************************************************* -->
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact Form</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="form-container">
 
-        <link href="main.css" rel="stylesheet">
-        <link rel="icon" href="favicon.ico" type="image/ico">
-    </head>
-    <body>
-        <div class="form-container">
-		
-            <div id="msg">
-                <br>
-            </div>
-            <div id="form-div">
-                <form id="names-form" action="email.php" method="post">
-				
-					 <div class="input-div">
-						<input type="text" name="name" id="name" placeholder="Your Name">
-					 </div>
-					 
-					 <div class="input-div">
-						<input type="text" name="remail1" id="remail1" placeholder="Return Email">
-					 </div>
-					 
-					 <div class="input-div">
-						<input type="text" name="remail2" id="remail2" placeholder="Re-Enter Email">
-					</div>
-					
-					<div class="input-div">
-						<input type="text" name="subject" id="subject" placeholder="Subject">
-					</div>
-					
-				    <div class="input-div">
-						<textarea name="message" id="message" placeholder="Message"></textarea>
-					</div>
-					
-					<div class="input-div">
-						<button id="send" type="button" class="">Send</button>&nbsp;&nbsp;
-						<button id="clear" type="button" class="">Clear</button>
-					</div>
-				
-				
-				
-				</form>
-            </div>
+    <div id="msg">
+        <br>
+    </div>
+    <div id="form-div">
+        <form id="names-form" action="email.php" method="post">
+
+         <div class="input-div">
+          <input type="text" name="name" id="name" placeholder="Your Name">
+         </div>
+         
+         <div class="input-div">
+          <input type="text" name="remail1" id="remail1" placeholder="Return Email">
+         </div>
+         
+         <div class="input-div">
+          <input type="text" name="remail2" id="remail2" placeholder="Re-Enter Email">
         </div>
-        <script src="main.js"></script>
-    </body>
-</html>
+        
+        <div class="input-div">
+          <input type="text" name="subject" id="subject" placeholder="Subject">
+        </div>
+        
+          <div class="input-div">
+          <textarea name="message" id="message" placeholder="Message"></textarea>
+        </div>
+        
+        <div class="input-div">
+          <button id="send" type="button" class="">Send</button>&nbsp;&nbsp;
+          <button id="clear" type="button" class="">Clear</button>
+        </div>
+
+
+      </form>
+    </div>
+</div>
+    
