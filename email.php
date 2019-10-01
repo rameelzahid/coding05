@@ -34,20 +34,20 @@ function main() {
 			
 			if ($success) 
 			{
-				redirect ('email-success.html');
+				redirect ('success.php');
 			}	
 			else 
 			{
-				redirect ('email-error.html');
+				redirect ('error.php');
 			}
 		 }
 		 else 
 		 { 
-			redirect('email-error.html'); 
+			redirect('error.php'); 
 		 }
 
     } else {
-        redirect('email-error.html');
+			redirect('error.php'); 
     }
 }
 
