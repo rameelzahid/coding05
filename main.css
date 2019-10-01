@@ -22,3 +22,17 @@ footer{
 .centered{
     text-align: center;
 }
+
+
+/*Display for medium displays (like mobile phones in landscape or smaller tablets)*/
+@media (min-width: 600px)  {
+	input {
+		width: 60%;
+	}
+	textarea {
+	 width: 60%;
+	}
+
+}
+
+
