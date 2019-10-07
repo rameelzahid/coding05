@@ -20,8 +20,80 @@ footer{
 }
 
 
-/*Display for medium displays (like mobile phones in landscape or smaller tablets)*/
-@media (min-width: 600px)  {
+@media (max-width: 600px)  {
+  
+  form {
+    text-align:center;
+  }
+	input {
+	 width: 80%;
+	 background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+	}
+	textarea {
+	 width: 80%;
+   background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+	}
+  input-div {
+	 width: 80%;
+	 background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+
+  }
+  textarea {
+     width: 80%;
+     background-color: #FFC5FC;
+     color: black;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+  }
+  #form-div {
+      margin: 100px auto;
+  }
+
+  form-div {
+      width: 100%;
+  }
+
+  form-container{
+      text-align: center;
+      margin: 50px auto;
+      width: 100%;
+  }
+
+  button {
+    background-color: #094C83;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  table {
+      margin: 50px auto;
+      width: 100%;
+      overflow-x:auto;
+      table-layout:fixed;
+  }
+  img {
+    max-width:100%;
+    height:auto;
+ }
+}
+
+@media (min-width: 1200px) {
   form {
     text-align:center;
   }
@@ -50,37 +122,120 @@ footer{
 	 border-radius: 4px;
 
 }
-textarea {
+  textarea {
+     width: 80%;
+     background-color: #FFC5FC;
+     color: black;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+  }
+  #form-div {
+      margin: 100px auto;
+  }
+
+  form-div {
+      width: 100%;
+  }
+
+  form-container{
+      text-align: center;
+      margin: 50px auto;
+      width: 100%;
+  }
+
+  button {
+    background-color: #094C83;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  table {
+      margin: 50px auto;
+      width: 100%;
+      overflow-x:auto;
+      table-layout:fixed;
+  }
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 1200px) {
+	  form {
+    text-align:center;
+  }
+	input {
 	 width: 80%;
 	 background-color: #FFC5FC;
 	 color: black;
 	 padding: 12px 20px;
 	 border: none;
 	 border-radius: 4px;
-}
-#form-div {
-    margin: 100px auto;
-}
+	}
+	textarea {
+	 width: 80%;
+   background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+	}
+  input-div {
+	 width: 80%;
+	 background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
 
-form-div {
-    width: 100%;
 }
+  textarea {
+     width: 80%;
+     background-color: #FFC5FC;
+     color: black;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+  }
+  #form-div {
+      margin: 100px auto;
+  }
 
-form-container{
-    text-align: center;
-    margin: 50px auto;
-    width: 100%;
+  form-div {
+      width: 100%;
+  }
+
+  form-container{
+      text-align: center;
+      margin: 50px auto;
+      width: 100%;
+  }
+
+  table {
+      margin: 50px auto;
+      width: 100%;
+      overflow-x:auto;
+      table-layout:fixed;
+  }
+
+  button {
+    background-color: #094C83;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-button {
-  background-color: #094C83;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
+  img {
+      max-width:100%;
+      height:auto;
+  }
 
 }
 
@@ -262,38 +417,106 @@ section h2 {
 
 
 @media (max-width: 426px){
-header.row p {
-    letter-spacing: .1em;
+  header.row p {
+      letter-spacing: .1em;
+  }
+  header.row {
+      padding: 10px 0px;
+      background-size: 75% auto, auto auto;
+      font-size: 90%;
+  }
+  main.row article h1 {
+      padding-top: 15px;
+      font-size: 185%;
+      line-height: 1.1em;
+      text-align: center;
+  }
+  main.row article h2 {
+      font-size: 150%;
+      line-height: 1.1em;
+  }
+
+  .blockstyle {
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  }
+
+  .h3 {
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+  }
+
+  .h5 { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
+     font-size:18px
+  }
+  
+ form {
+    text-align:center;
+  }
+	input {
+	 width: 80%;
+	 background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+	}
+	textarea {
+	 width: 80%;
+   background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+	}
+  input-div {
+	 width: 80%;
+	 background-color: #FFC5FC;
+	 color: black;
+	 padding: 12px 20px;
+	 border: none;
+	 border-radius: 4px;
+
+  }
+  textarea {
+     width: 80%;
+     background-color: #FFC5FC;
+     color: black;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+  }
+  #form-div {
+      margin: 100px auto;
+  }
+
+  form-div {
+      width: 100%;
+  }
+
+  form-container{
+      text-align: center;
+      margin: 50px auto;
+      width: 100%;
+  }
+
+  table {
+      margin: 50px auto;
+      width: 100%;
+      overflow-x:auto;
+      table-layout:fixed;
+  }
+
+  button {
+    background-color: #094C83;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  img {
+      max-width:100%;
+      height:auto;
+  }
+
+
 }
-header.row {
-    padding: 10px 0px;
-    background-size: 75% auto, auto auto;
-    font-size: 90%;
-}
-main.row article h1 {
-    padding-top: 15px;
-    font-size: 185%;
-    line-height: 1.1em;
-    text-align: center;
-}
-main.row article h2 {
-    font-size: 150%;
-    line-height: 1.1em;
-}
-
-
-
-
-
-.blockstyle {
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-}
-
-.h3 {
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
-}
-
-.h5 { font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif
-	 font-size:18px
-}
-
